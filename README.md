@@ -24,5 +24,5 @@
 > `docker volume prune` 刪除所有未被container使用到的volume\
 > `docker volume rm <VolName>` 刪除volume\
 > creat沒指定位置的話 : 
-> 1. win : \\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes
-> 2. linux : /var/lib/docker/volumes/
+> 1. win : `\\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes`
+> 2. linux :` /var/lib/docker/volumes/`
