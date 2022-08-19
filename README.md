@@ -18,11 +18,11 @@
 >
 > -d : 在背景執行
 #### volume 使用方式 
-> `docker volume create <VolName>` : 建立新的保存空間並命名 (可以用-d來指定位置)
-> `docker volume ls ` : 列出本機上所有的volume
-> `docker volume inspect` <VolName> 查看該volume相關
-> `docker volume prune` 刪除所有未被container使用到的volume
-> `docker volume rm <VolName>` 刪除volume
+> `docker volume create <VolName>` : 建立新的保存空間並命名 (可以用-d來指定位置)\
+> `docker volume ls ` : 列出本機上所有的volume\
+> `docker volume inspect` <VolName> 查看該volume相關\
+> `docker volume prune` 刪除所有未被container使用到的volume\
+> `docker volume rm <VolName>` 刪除volume\
 > 
 > creat沒指定位置的話 : 
 1. win : \\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes
