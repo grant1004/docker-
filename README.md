@@ -3,7 +3,7 @@
 
 ## 今天利用 docker desktop 的環境建立一個可以使用 GPU 來做 yolo 訓練的環境 
 
-### step1 : docker run --gpus all -v <volume name>:<容器內掛載路徑> --name <container name> <image> 
+### step1 : docker run --gpus all -v <volume name>:<容器內的映射路徑> --name <container name> <image> 
 > docker run --gpus all -v prediction:/home --name yoloenv 10.1-cudnn7-devel-ubuntu18.04
 >
 > -v : 掛載主機的 volume，volume是對於主機的映射資料夾 
