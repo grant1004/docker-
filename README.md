@@ -1,7 +1,7 @@
 # docker 紀錄使用DOCKER的各種事項  
 # windows 10, wsl2, docker desktop, nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
 
-## 今天利用 docker desktop 的環境建立一個可以使用 GPU 來做 yolo 訓練的環境 
+## 利用 docker 建立一個可以使用 GPU 來做 yolo 訓練的容器 
 
 ### step1 : docker run --gpus all -v <volume name>:<容器內的映射路徑> --name <container name> -itd <image> 
 > docker run --gpus all -v prediction:/home --name yoloenv nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
